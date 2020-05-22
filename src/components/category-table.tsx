@@ -104,15 +104,15 @@ const CategoryTable: React.FC = () => {
                             <td>{data.name}</td>
                             <td>{data.l.length}</td>
                             <td>
-                                <button 
+                                <button //new botton go
                                 type="button" 
-                                className="btn btn-danger" 
+                                className="btn btn-success" 
                                 onClick={toCategory} 
                                 id={data._id}
                                 >GO</button>
                             </td>
                             <td>
-                                <button 
+                                <button // button delete
                                 type="button" 
                                 className="btn btn-danger" 
                                 onClick={showModal} 
